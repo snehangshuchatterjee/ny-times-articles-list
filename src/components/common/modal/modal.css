@@ -1,0 +1,33 @@
+.authorName{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.publishedDate{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.tags{
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.fullArticle{
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.articleDetailsData{
+    position: relative;
+}

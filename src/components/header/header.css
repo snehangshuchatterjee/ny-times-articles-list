@@ -1,0 +1,11 @@
+.mainHeading{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid rgb(226, 225, 225);
+    position: sticky;
+    top:0;
+    background: rgb(245, 240, 240);
+    z-index: 1;
+}
