@@ -7,7 +7,7 @@ const ArticleCardBodyComponent = (props) => {
     return (
         <div >
             <header className="articleCardHeading">{title}</header>
-            <main>{abstract}</main>
+            <main className="mainBody">{abstract}</main>
             <footer className="articleCardViewMore"
                 onClick={() => {
                     handleViewMore(id);

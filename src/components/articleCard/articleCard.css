@@ -19,12 +19,16 @@
 .articleCardBody{
     position: relative;
 }
+.mainBody{
+    margin-bottom: 30px;
+}
 
 .articleCardViewMore{
     position: absolute;
     bottom: 10px;
     right: 10px;
     cursor: pointer;
+    margin-top: 30px;
 }
 .articleCardViewMore:hover{
     color: blue;
