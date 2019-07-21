@@ -14,14 +14,12 @@ export const fetchArticleListReducer = (state = initialState, action) => {
                 loading: true
             };
         case FETCH_DATA_LIST_SUCCESS:
-            console.log(action.payload.data.results);
             return {
                 ...state,
                 loading: false,
                 articles: action.payload.data
             };
         case FETCH_DATA_LIST_FAIL:
-            console.log("Error");
             return {
                 ...state,
                 loading: false,
