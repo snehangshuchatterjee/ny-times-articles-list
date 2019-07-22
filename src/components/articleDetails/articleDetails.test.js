@@ -4,7 +4,6 @@ import { shallow } from 'enzyme';
 import store from '../../redux/store';
 
 import { ConnectedArticleDetailsComponent } from '.';
-import ArticlesDetailsBodyComponent from './articleDetailsBody';
 
 describe("Articles Details Body Component", () => {
     let wrapper, selectedArticle, history;
@@ -23,7 +22,7 @@ describe("Articles Details Body Component", () => {
             selectedArticle: ["", ""]
         });
 
-        expect(currentWrapper.find(ArticlesDetailsBodyComponent).length).toEqual(1);
+        expect(currentWrapper.find("iframe").length).toEqual(1);
     });
 
     it("should call the onClick method if user clicks on the component", () => {

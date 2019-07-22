@@ -2,10 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter, } from "react-router-dom";
 
-import ArticlesDetailsBodyComponent from './articleDetailsBody';
+import HeaderComponent from '../common/header';
+import './articleDetails.css';
 
 const ArticleDetailsComponent = (props) => {
     const { selectedArticle } = props;
+    const { title, url } = selectedArticle;
 
     //Navigate to list page if page has been reloaded 
     //and there is no data available
@@ -15,7 +17,14 @@ const ArticleDetailsComponent = (props) => {
     }
 
     return (
-        <ArticlesDetailsBodyComponent article={selectedArticle} />
+        <>
+            <HeaderComponent heading={title} />
+            <iframe src={url}
+                title={title}
+                allowFullScreen={true}
+                className="detailsIFrame"
+            ></iframe>
+        </>
     );
 }
 

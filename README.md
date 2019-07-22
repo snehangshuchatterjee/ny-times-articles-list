@@ -35,17 +35,26 @@ To Run the application on your local system, perform the following steps:
 
 ### Mobile
 
-![Image](src/resources/images/articleList_Mobile.jpeg "articleList_mobile")
+![Image](src/resources/images/articleList_Mobile.png "articleList_mobile")
 
-![Image](src/resources/images/articleLoading_Mobile.jpeg "articleLoading_mobile")
+![Image](src/resources/images/articleLoading_Mobile.png "articleLoading_mobile")
 
-![Image](src/resources/images/articleDetails_Mobile.jpeg "articleDetails_mobile")
-
-![Image](src/resources/images/articleDetails_Mobile-2.jpeg "articleDetails_mobile2")
+![Image](src/resources/images/articleDetails_Mobile.png "articleDetails_mobile")
 
 ### Unit Test Coverage
 
 ![Image](src/resources/images/coverage.png "Unit Test Coverage")
+
+To Generate the Coverage report, perform the following steps:
+
+- Open command prompt/terminal on your project's base folder
+- Run the following command:
+    ```
+    npm run test
+    ```
+- Once the test case execution is complete, open the project folder
+- Go to the `coverage -> lcov-report` folder
+- Open the `index.html` file on your browser. You will get a detailed test coverage report on the browser
 
 ## Available Scripts
 
