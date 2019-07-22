@@ -32,7 +32,7 @@ class ArticleListComponent extends PureComponent {
         return (
             <div >
                 <HeaderComponent heading={this.pageHeading} />
-                {isLoading && <h3>Loading...</h3>}
+                {(isLoading && !data.results) && <h3>Loading...</h3>}
                 {isError && <h3>Unable to fetch data from the server</h3>}
                 {data.results && data.results.map(article => {
                     return (

@@ -7,8 +7,7 @@ const ArticleCardBodyComponent = (props) => {
         <div >
             <header className="articleCardHeading">{title}</header>
             <main className="mainBody">{abstract}</main>
-            <footer className="articleCardViewMore"
-            >
+            <footer className="articleCardViewMore">
                 {byline}
             </footer>
         </div>

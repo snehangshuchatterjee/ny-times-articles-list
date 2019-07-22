@@ -23,7 +23,8 @@ describe("Article List Component", () => {
             let currentWrapper = wrapper.dive().dive();
 
             currentWrapper.setProps({
-                isLoading: true
+                isLoading: true,
+                data: {}
             });
 
             expect(currentWrapper.find("h3").length).toEqual(1);
