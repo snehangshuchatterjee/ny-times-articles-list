@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Application Details
 
 This is an application which lists down the most viewed articled from NY Times.
