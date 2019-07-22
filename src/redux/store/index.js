@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from 'redux';
 import axiosMiddleware from 'redux-axios-middleware';
-import { client } from '../axiosClient';
+import { client } from '../../axiosClient';
 
 import rootReducer from '../reducers';
 

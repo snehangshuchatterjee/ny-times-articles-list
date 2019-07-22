@@ -1,19 +1,15 @@
 import React from "react";
 
 const ArticleCardBodyComponent = (props) => {
-    const { title, abstract, id } = props.articleData;
-    const { handleViewMore } = props;
+    const { title, abstract, byline } = props.articleData;
 
     return (
         <div >
             <header className="articleCardHeading">{title}</header>
             <main className="mainBody">{abstract}</main>
             <footer className="articleCardViewMore"
-                onClick={() => {
-                    handleViewMore(id);
-                }}
             >
-                View More...
+                {byline}
             </footer>
         </div>
     );

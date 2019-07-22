@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import MainComponent from './components/mainComponent';
+import RouteComponent from './components/routes';
 
 function App() {
-  return (
-    <MainComponent />
-  );
+	return (
+		<RouteComponent />
+	);
 }
 
 export default App;

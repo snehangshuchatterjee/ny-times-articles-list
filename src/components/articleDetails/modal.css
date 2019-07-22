@@ -25,9 +25,34 @@
     margin-top: 10px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 15px;
+    font-size: 14px;
+}
+
+.fullArticle:hover{
+    color: #0056b3;
 }
 
 .articleDetailsData{
     position: relative;
+}
+
+.detailImage{
+    text-align: center;
+}
+
+.goBack{
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    cursor: pointer;
+}
+
+.articleDetails{
+    margin-top: 10px;
+    padding: 20px 0;
+    background: #FFFFFF;
+    border: 2px solid rgb(226, 225, 225);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(226, 225, 225)
 }

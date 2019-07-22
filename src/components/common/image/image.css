@@ -1,3 +1,8 @@
 .imageCaption{
     font-size: 12px;
 }
+
+.imageClass{
+    max-width: 100%;
+    height: auto;
+}
