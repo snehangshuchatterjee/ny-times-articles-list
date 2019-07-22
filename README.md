@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is an application which lists down the most viewed articled from NY Times.
 
-The app can be viewed on a public link [here](https://sneh-articles-list.netlify.com/)
-
 To Run the application on your local system, perform the following steps:
 
 - Clone this repository on your local machine.
